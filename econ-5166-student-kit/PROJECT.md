@@ -26,7 +26,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 目前對話的學生：待確認（依本次對話更新，不自動沿用上一次的對話者）。
 
 | Name | Student ID | GitHub Account | Role |
-| --- | --- | --- | --- |
+| 蔡昇諺 | B12303146 | ky5900042-byte | --- |
 
 ## Student Preferences
 
