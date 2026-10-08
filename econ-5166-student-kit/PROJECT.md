@@ -27,10 +27,10 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Name | Student ID | GitHub Account | Role |
 | --- | --- | --- | --- |
-| 黃敬翔 | r14546021 | sean0517 | --- |
-| 蔡昇諺 | B12303146 | ky5900042-byte | --- |
-| 黃欣予 | B11610053 | xinyuhuang0615 | --- |
-| 林丞翊 | B12303006 | ericlin218 | --- |
+| 黃敬翔 | r14546021 | sean0517 | Project manager (PM) |
+| 蔡昇諺 | B12303146 | ky5900042-byte | Data analyst (DA) |
+| 黃欣予 | B11610053 | xinyuhuang0615 | Data engineer (DE) |
+| 林丞翊 | B12303006 | ericlin218 | Data analyst (DA) |
 
 
 ## Student Preferences
