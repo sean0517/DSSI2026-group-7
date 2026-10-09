@@ -33,11 +33,9 @@ B12303006 林丞翊
 
 ### 資料來源
 
-主要資料來源為 Kaggle 上的 **Formula 1 World Championship (1950 - 2024)** 資料集，內容涵蓋：
-
-1. 歷年排位賽起跑位置與正賽完賽名次（`qualifying`、`results`、`races` 等表）。
-2. 車手／賽道風格分群所需資料：每圈單圈時間（`lap_times`）與進站策略資料（`pit_stops`）。
-3. 輔助資料：車手（`drivers`）、車隊（`constructors`）、賽道（`circuits`）基本資訊。
+1. **Formula 1 World Championship (1950 - 2024)** 資料集：歷年排位賽起跑位置與正賽完賽名次。
+2. 車手／賽道風格分群所需資料：每圈單圈時間與進站策略資料。
+3. 輔助資料：車手、車隊、賽道基本資訊。
 
 ### 研究方法
 
