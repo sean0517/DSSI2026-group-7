@@ -35,8 +35,8 @@ B12303006 林丞翊
 ### 資料來源
 
 1. **Formula 1 World Championship (1950 - 2024)** 資料集：賽道資料、車隊資料、車手資料、單圈時間、進站資料、排位賽結果、賽程資料、正賽結果、衝刺賽結果
-2. **FastF1** 資料集：輪胎資料（session.laps）
-3. **Open-Meteo** 資料集：
+2. **FastF1** 資料集：輪胎資料（僅使用session.laps）
+3. **Open-Meteo**：以串接 Historical Weather API 查詢該次比賽的經緯度和日期來取得天氣資料
 
 ### 研究方法
 
@@ -67,11 +67,53 @@ B12303006 林丞翊
 
 ## 2. 已有之 raw data
 
-請由 DE 將目前已抓到的 raw data 印出幾個範本。此問題之目的在於確定關鍵資料可取得。
+**circuits(賽道基本資料)**
 
-目前已確認資料來源為 Kaggle 的 Formula 1 World Championship (1950 - 2024) 資料集，為多個 CSV 檔案（`races.csv`、`results.csv`、`qualifying.csv`、`lap_times.csv`、`pit_stops.csv`、`drivers.csv`、`circuits.csv` 等）。
+![circuits 範例](./data_images/circuits.png)
 
-待 DE 下載後放入 `data/raw/`，並在此處補上各主要表格的前幾列範例。
+**constructors(車隊基本資料)**
+
+![constructors 範例](./data_images/constructors.png)
+
+**constructor_results(車隊單場得分)**
+
+![constructor_results 範例](./data_images/constructor_results.png)
+
+**constructor_standings(車隊積分榜)**
+
+![constructor_standings 範例](./data_images/constructor_standings.png)
+
+**drivers(車手基本資料)**
+
+![drivers 範例](./data_images/drivers.png)
+
+**driver_standings(車手積分榜)**
+
+![driver_standings 範例](./data_images/driver_standings.png)
+
+**lap_times(單圈時間)**
+
+![lap_times 範例](./data_images/lap_times.png)
+
+**pit_stops(進站紀錄)**
+
+![pit_stops 範例](./data_images/pit_stops.png)
+
+**qualifying(排位賽成績)**
+
+![qualifying 範例](./data_images/qualifying.png)
+
+**results(每場比賽的車手成績)**
+
+![results 範例](./data_images/results.png)
+
+**sprint_results(衝刺賽成績)**
+
+![sprint_results 範例](./data_images/sprint_results.png)
+
+**status(完賽狀態代碼)**
+
+![status 範例](./data_images/status.png)
 
 ## 3. 主要分析用資料需求（組員共同討論，DA 負責撰寫，DE 確認可執行）
 (DA DE 各輸出一版 10/10)
