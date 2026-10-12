@@ -28,12 +28,17 @@ finalized_at:
 
 ### 黃敬翔（PM）
 
-- Assigned task(s)：第一、五、六節 統整內容
-- Work completed：第一、五、六節
-- Commit(s)：10/8,10/13
-- Definition-of-done status：90%
-- Blockers or dependencies：要找更多討論時間
-- Proposed next step：找DA DE討論兩邊需要的東西
+- Assigned task(s)：第 1 節（研究問題、動機、資料來源、方法）、第 5 節預期限制、第 6 節分工表、文獻搜尋與 `references/` 筆記、會議紀錄
+- Work completed：研究問題收斂為正賽前三名預測並明訂預測時點；研究動機重寫為四句話主軸、案例縮為三個；資料來源補取得狀態與限制；第一階段三個特徵改為可執行算法；第 5 節重寫為九點；新增 9 篇文獻筆記與參考文獻清單；用 `data/raw/` 核對第 3 節欄位可行性並寫成給 DA、DE 的檢查意見
+- Commit(s), changed files, or other evidence：
+  - `005b7ae`（https://github.com/sean0517/DSSI2026-group-7/commit/005b7ae）2026-10-08：新增提案初稿、填入組員分工；`report/proposal.md`、`PROJECT.md` — 已推送並核對
+  - `3122305`（https://github.com/sean0517/DSSI2026-group-7/commit/3122305）2026-10-08：研究問題改為名次預測、加入氣候特徵；`report/proposal.md` — 已推送並核對
+  - `df531dc`（https://github.com/sean0517/DSSI2026-group-7/commit/df531dc）2026-10-13：重寫第 1、5 節，新增 9 篇文獻筆記與參考文獻、會議紀錄草稿、給 DA 和 DE 的檢查意見；12 個檔案：`report/proposal.md`、`report/2026-10-08-weekly-meeting.md`、`references/*.md` 9 個、`attachments/meetings/2026-10-13-pm-revision-notes-for-da-de.md` — 已推送並核對（2026-10-13，`origin/main` 包含）
+- Definition-of-done status：第 1、5 節完成；第 2、3、4 節的一致性意見已交 DE DA，等修改後再核對一次
+- Blockers or dependencies：找更適合的meeting時間 多點討論
+- Proposed next step：DA、DE 修改後核對第 1、2、3、4 節一致性；更新 PROJECT.md 貢獻表其他三位的狀態
+
+
 
 ### 黃欣予（DE）
 

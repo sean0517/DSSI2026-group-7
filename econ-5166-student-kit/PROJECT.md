@@ -8,10 +8,10 @@
 
 | Field | Details |
 | --- | --- |
-| Remote repository | 待學生提供或唯讀核對，不記錄帳密或 token |
-| Target branch | 待學生確認或唯讀核對 |
-| Setup status | 待確認學生的 repo、remote 與開啟的專案根目錄 |
-| Last push verification | 待核對；記錄核對對象、分支、commit、依據及時間 |
+| Remote repository | https://github.com/sean0517/DSSI2026-group-7.git（唯讀核對 `git remote -v`，2026-10-13） |
+| Target branch | main |
+| Setup status | repo 根目錄為 `DSSI2026-group-7/`，工作包位於子資料夾 `econ-5166-student-kit/`；VS Code 開啟的是 repo 根目錄 |
+| Last push verification | 2026-10-13：`git fetch` 後 `origin/main` 最新為 `df531dc`（黃敬翔），`git branch -r --contains df531dc` 確認遠端包含；本地與遠端一致 |
 
 ## Research Question
 
@@ -79,4 +79,8 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Name | Contribution | Commit reference |
 | --- | --- | --- |
-| 待填 | 待填 | 待填 |
+| 黃敬翔 | 重寫提案第 1 節（研究問題、動機、資料來源、方法）與第 5 節預期限制；新增 `references/` 9 篇 F1 文獻筆記與參考文獻清單；撰寫 2026-10-08 週會紀錄草稿與給 DA、DE 的檢查意見 | [`df531dc`](https://github.com/sean0517/DSSI2026-group-7/commit/df531dc) — 已推送並核對（2026-10-13） |
+| 黃敬翔 | 建立提案初稿、填入組員分工、研究問題改為名次預測並加入氣候特徵 | [`005b7ae`](https://github.com/sean0517/DSSI2026-group-7/commit/005b7ae)、[`3122305`](https://github.com/sean0517/DSSI2026-group-7/commit/3122305) — 已推送並核對（2026-10-13） |
+| 黃欣予 | 待本人確認（會議紀錄分工：第 2 節 raw data 下載與各表範例圖） | `cfd2a09`、`b8c26fc`、`281662c` 在 `origin/main`，歸屬待本人確認 |
+| 林丞翊 | 待本人確認（會議紀錄分工：第 3 節資料需求、第 4 節假說，修改研究方法第一、二階段） | `66c23f5`、`3d35a5a` 在 `origin/main`，歸屬待本人確認 |
+| 蔡昇諺 | 待本人確認（會議紀錄分工：第 3、4 節，與林丞翊共同負責） | 尚無 commit 紀錄 |
